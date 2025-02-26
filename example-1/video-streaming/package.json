@@ -1,19 +1,20 @@
 {
   "name": "example-1",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Node.js application serving a static HTML file, used for load balancing with NGINX.",
   "main": "./src/index.js",
   "scripts": {
     "start": "node ./src/index.js",
     "start:dev": "nodemon ./src/index.js"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Name",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "path": "^0.12.7"
   },
   "devDependencies": {
     "nodemon": "^1.19.1"
   }
 }
+
